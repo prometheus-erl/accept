@@ -1,15 +1,10 @@
-
-
 # Accept header(s) for Erlang/Elixir #
-
-Copyright (c) 2016 Ilya Khaprov <<i.khaprov@gmail.com>>.
-
-__Version:__ 0.3.5
 
 [![Hex.pm](https://img.shields.io/hexpm/v/accept.svg?maxAge=2592000?style=plastic)](https://hex.pm/packages/accept)
 [![Hex.pm](https://img.shields.io/hexpm/dt/accept.svg?maxAge=2592000)](https://hex.pm/packages/accept)
-[![Build Status](https://travis-ci.org/deadtrickster/accept.svg?branch=version-3)](https://travis-ci.org/deadtrickster/accept)
-[![Coverage Status](https://coveralls.io/repos/github/deadtrickster/accept/badge.svg?branch=master)](https://coveralls.io/github/deadtrickster/accept?branch=master)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/accept/)
+[![GitHub Actions](https://github.com/prometheus-erl/accept/actions/workflows/ci.yml/badge.svg)](https://github.com/prometheus-erl/accept/actions/workflows/ci.yml)
+[![Codecov](https://codecov.io/github/prometheus-erl/accept/graph/badge.svg?token=G9HB5UKNIY)](https://codecov.io/github/prometheus-erl/accept)
 
 ## TOC 
 - [Accept](#accept-header) 
@@ -98,30 +93,3 @@ undefined
 ```
 
 Negotiate preserves user-defined order for equally scored alternatives.
-
-## Contributing
-
-Sections order:
-
-`Types -> Macros -> Callbacks -> Public API -> Deprecations -> Private Parts`
-
-install git precommit hook:
-
-```
-   ./bin/pre-commit.sh install
-```
-
-Pre-commit check can be skipped passing `--no-verify` option to git commit.
-
-## License
-
-MIT
-
-
-## Modules ##
-
-
-<table width="100%" border="0" summary="list of modules">
-<tr><td><a href="https://github.com/deadtrickster/accept/blob/master/doc/accept_encoding_header.md" class="module">accept_encoding_header</a></td></tr>
-<tr><td><a href="https://github.com/deadtrickster/accept/blob/master/doc/accept_header.md" class="module">accept_header</a></td></tr></table>
-

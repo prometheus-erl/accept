@@ -1,3 +1,0 @@
-%% encoding: UTF-8
-{application,accept}.
-{modules,[accept_encoding_header,accept_header]}.

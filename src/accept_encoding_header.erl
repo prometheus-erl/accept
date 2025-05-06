@@ -51,14 +51,14 @@ negotiate(Header, Alternatives) ->
 
     case CCs of
         [] -> <<"identity">>;
-        _ -> negotiate_(CCs, Alternatives)
+        _ -> negotiate_1(CCs, Alternatives)
     end.
 
 %%====================================================================
 %% Private Parts
 %%====================================================================
 
-negotiate_(CCs, Alternatives) ->
+negotiate_1(CCs, Alternatives) ->
     Alts = lists:map(
         fun(Alt) ->
             {A, Tag} = accept_neg:alt_tag(Alt),
